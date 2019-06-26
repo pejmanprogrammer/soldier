@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawel"
+        android:background="#2d2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <include layout="@layout/activity_main"/>
+
+
+
+        <android.support.design.widget.NavigationView
+            android:background="#E0E0E0"
+
+
+            android:layoutDirection="rtl"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:id="@+id/navigation"
+            android:layout_gravity="right"
+            app:menu="@menu/itemnavigation"
+            app:itemIconTint="#3a86ea"
+            app:theme="@style/SeekBar"
+            app:headerLayout="@layout/headerlayout"
+
+
+
+            >
+
+        </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

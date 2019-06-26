@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+        <!-- Customize your theme here. -->
+
+
+
+    </style>
+
+    <style name="MyFloatingButton" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SeekBar" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#f4d21619</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

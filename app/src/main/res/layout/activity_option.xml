@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/backbutton"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:text="فونت مطالب"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/backtopemail"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <RadioGroup
+            android:id="@+id/rgfonts"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="30sp"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+
+
+                android:id="@+id/rbfontnazanin"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:text="فونت نازنین"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+
+                android:id="@+id/rbfontiransans"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:text="فونت ایران سنس"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+
+                android:id="@+id/rbfontestedad"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:text="فونت استعداد"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:text="اندازه فونت" />
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekbarsizefont"
+            android:theme="@style/SeekBar"
+            android:max="50"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:text="دیالوگ ها"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/backtopemail"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/ck_dialog_des"
+            android:textColor="#ffffff"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            android:text="دیالوگ توضیحات نرم افزار"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00" />
+        <android.support.v7.widget.AppCompatCheckBox
+
+            android:id="@+id/ck_dialog_mes"
+            android:checked="true"
+            android:textColor="#ffffff"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            android:text="دیالوگ نظر به برنامه"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
+

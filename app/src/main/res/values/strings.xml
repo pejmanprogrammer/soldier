@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">سرباز معاف شو</string>
+    <string name="type_one">معافیت پزشکی</string>
+    <string name="type_two">معافیت کفالت</string>
+    <string name="type_there">بنیاد ملی نخبگان</string>
+    <string name="type_four">شرایط خرید خدمت سربازی</string>
+    <string name="type_five">ایرانیان خارج از کشور</string>
+    <string name="type_six">معافیت فرزندان ایثارگران</string>
+    <string name="type_seven">شرایط و نحوه اخذ سرباز معلم</string>
+
+
+    <string name="listpartone_1">بیماری های عمومی</string>
+    <string name="listpartone_2">بیماری های تیروئید(چاقی و لاغری)</string>
+    <string name="listpartone_3">بیماری های پوست و بافت های زیرپوست</string>
+    <string name="listpartone_4">بیماری های داخلی مغز و اعصاب(نورولوژي)</string>
+    <string name="listpartone_5">بيماريهاي روانپزشكي</string>
+    <string name="listpartone_6">بيماريهاي جراحي مغز و اعصاب</string>
+    <string name="listpartone_7">بيماريهاي ريه و قفسه صدري</string>
+    <string name="listpartone_8">بيماريهاي استخوان(اسکلت) </string>
+    <string name="listpartone_9">بيماريهاي شكم و دستگاه گوارش و جراحي عمومي</string>
+    <string name="listpartone_10">بيماريهاي خون و انكولوژي(بد خیمی ها)</string>
+    <string name="listpartone_11">بيماريهاي دستگاه ادراري تناسلي</string>
+    <string name="listpartone_12">بيماريهاي فك و دهان و دندان</string>
+    <string name="listpartone_13">بيماريهاي چشم و عوارض بينايي</string>
+    <string name="listpartone_14">بيماريهاي گوش و حلق و بيني</string>
+    <string name="listpartone_15">بيماريهاي قلب و عروق</string>
+    <string name="listpartone_16">بيماريهاي روماتولوژي و بافت همبند</string>
+    <string name="listpartone_17">بيماريهاي عفوني</string>
+    <string name="listpartone_18">بيماريهاي كه آئين نامه معافيت پزشكي پيش بيني نشده است</string>
+    <string name="listpartone_19">بیماری یا نقص عضو پدر مشمول</string>
+
+    <string name="infavg_email">سن(اختیاری)</string>
+
+
+    <string name="dialog_error_sdk">مدل اندروید شما نمیتواند این نرم افزار را ساپورت کند</string>
+    <string name="dialog_error_message_email">لطفا درخواست خود را وارد کنید</string>
+    <string name="dialog_error_network">برای ارسال ایمیل نیاز به دسترسی اینترنت دارید</string>
+    <string name="dialog_error">مشکلی در برنامه پیش امده است لطفا دوباره امتحان کنید</string>
+
+
+    <string name="menu_item_message">تطبیق شرایط</string>
+    <string name="menu_item_option">تنظیمات</string>
+    <string name="menu_item_mylike">علاقمندی ها</string>
+    <string name="menu_item_about">درباره ما</string>
+    <string name="menu_item_mind">نظر به برنامه</string>
+    <string name="menu_item_source">منابع برنامه</string>
+
+    <string name="dialog_des_top">خوشحالیم که این نرم افزار را انتخاب کرده اید(مطالب زیر را حتما بخوان)</string>
+    <string name="dialog_des">در قسمت بالای برنامه با ورود به قسمت درخواست میتوانید درخواست خود را بیان کرده و پیام را برای ما ایمیل کنید و در کمتر از 1 ماه به درخواست شما پاسخ داده میشود همیشه موفق و پیروز باشید</string>
+
+
+
+
+
+</resources>

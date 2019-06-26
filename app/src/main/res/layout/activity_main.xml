@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/testbacktwo"
+
+
+
+    tools:context="com.example.mohandespejman.informationjack.ActivityMain">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgsendemail"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:onClick="imgsendemail"
+                    android:src="@drawable/send" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:gravity="center">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:gravity="right">
+
+                <ImageView
+                    android:id="@+id/imgmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="menu"
+                    android:src="@drawable/mymenu" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight=".9"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".13">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_weight="0.13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".48">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight=".52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/btnpartone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/backbutton"
+                        android:onClick="btnpartone"
+                        android:text="@string/type_one"
+                        android:textColor="@color/colorwhite" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_weight="0.13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".48">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight=".52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+
+                <Button
+                    android:onClick="btnparttwo"
+                    android:id="@+id/btnparttwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/backbutton"
+                    android:text="@string/type_two"
+                    android:textColor="@color/colorwhite" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_weight="0.13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_weight=".48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight=".52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                <Button
+                    android:onClick="btnpartthere"
+                    android:id="@+id/btnpartthere"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorwhite"
+                    android:background="@drawable/backbutton"
+                    android:text="@string/type_there"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_weight="0.13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".48">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight=".52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                <Button
+                    android:onClick="btnpartfour"
+                    android:id="@+id/btnpartfour"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorwhite"
+                    android:background="@drawable/backbutton"
+                    android:text="@string/type_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_weight="0.13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_weight=".48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight=".52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                <Button
+                    android:onClick="btnpartfive"
+                    android:id="@+id/btnpartfive"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorwhite"
+                    android:background="@drawable/backbutton"
+                    android:text="@string/type_five"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_weight="0.13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_weight=".48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight=".52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                <Button
+                    android:onClick="btnpartsix"
+                    android:id="@+id/btnpartsix"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorwhite"
+                    android:background="@drawable/backbutton"
+                    android:text="@string/type_six"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_weight="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_weight=".48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight=".52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                <Button
+                    android:onClick="btnpartseven"
+                    android:id="@+id/btnpartseven"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorwhite"
+                    android:background="@drawable/backbutton"
+                    android:text="@string/type_seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

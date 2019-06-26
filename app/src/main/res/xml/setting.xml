@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:text="3" android:key="font" />
+    <EditTextPreference
+        android:text="18" android:key="sizefont" />
+    <CheckBoxPreference
+        android:checked="false" android:key="ِdescription_app" />
+    <CheckBoxPreference
+        android:checked="true" android:key="message_app" />
+</PreferenceScreen>

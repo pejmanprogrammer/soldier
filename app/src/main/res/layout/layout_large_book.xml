@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_weight=".02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_marginTop="0dp"
+            android:elevation="8dp"
+            android:background="@color/centercolorbutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:onClick="imgsharelarge"
+                android:id="@+id/imgsharelarge"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shar"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txtfirst"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".98"
+        android:layout_height="0dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="4dp"
+                android:id="@+id/txtlargebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
